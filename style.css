@@ -55,8 +55,8 @@
 .container--son .tarefaz {
     width: 100%;
     height: 40px;
-    border-left: 2px solid #FFF;
-    border-right: 2px solid #FFF;
+    border-left: 5px solid #FFF;
+    border-right: 5px solid #FFF;
 }
 
 .container--son .tarefas {
@@ -71,13 +71,20 @@
     padding: 10px;
 }
 
-.tarefasList li {
-    list-style-type: circle;
-    margin-bottom: 10px;
+.tarefasList div {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.tarefasList div input {
+    margin-right: 10px;
 }
 
 .itemTarefa {
     background-color: #17C3B2;
+    min-width: 100px;
     padding: 10px;
     padding-left: 5px;
+    border: 1px solid #000;
 }
