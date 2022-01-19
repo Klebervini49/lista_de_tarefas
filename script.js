@@ -17,6 +17,7 @@ document.querySelector('button.addRmv--tarefa').addEventListener('click', () => 
 })
 
 document.querySelector('.addRmv--tarefa.removerTudo').addEventListener('click', () => {
+    document.querySelector('.writeList').value = ''
     document.querySelector('.tarefasList').innerHTML = ''
     localStorage.clear()
 })

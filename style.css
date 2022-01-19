@@ -61,7 +61,6 @@
 
 .container--son .tarefas {
     background-color: #FFF;
-    padding: 15px 30px;
     border-radius: 0 0 5px 5px;
     max-height: 300px;
     overflow-y: auto;
@@ -72,7 +71,7 @@
 }
 
 .tarefasList div {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
