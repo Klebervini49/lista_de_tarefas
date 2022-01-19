@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(144deg, #af40ff7e, #5a42f3b9 40%, #00dbebee);
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+
+.container--son .add--tarefas {
+    background-color: #FFF;
+    padding: 15px 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.add--tarefas {
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+.add--tarefas input {
+    padding: 10px;
+    border: 2px solid #17C3B2;
+    font-size: 16px;
+    margin: 4px;
+}
+
+
+.addRmv--tarefa input:enabled {
+    border: 1px solid #17C3B2;
+}
+
+.add--tarefas .addRmv--tarefa {
+    padding: 10px;
+    color: white;
+    background-color: #17C3B2;
+    font-size: 16px;
+    border: 2px solid #17C3B2;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.addRmv--tarefa:hover {
+    transform: scale(1.06, 1.06);
+}
+
+.container--son .tarefaz {
+    width: 100%;
+    height: 40px;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+.container--son .tarefas {
+    background-color: #FFF;
+    padding: 15px 30px;
+    border-radius: 0 0 5px 5px;
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+
+.tarefasList {
+    padding: 10px;
+}
+
+.tarefasList li {
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+
+.itemTarefa {
+    background-color: #17C3B2;
+    padding: 10px;
+    padding-left: 5px;
+}
